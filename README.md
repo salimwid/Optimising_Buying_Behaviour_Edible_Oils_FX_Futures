@@ -1,13 +1,13 @@
-# Predicting_Cryptocurrency_Price_with_LSTM_ARIMA_NLP
+# Optimising_Buying_Behaviour_Edible_Oils_FX_Futures
 
 #### Models Deployed
-Artificial Recurrent Neural Network (RNN): Long-Short Term Memory, Natural Language Processing (NLP), Sentiment Analysis, Time Series (ARIMA)
+Non-linear and Linear Regression, KMeans Clustering and Classification Models (e.g: XGBoost, Light GBM, etc.)
 
 #### Techniques Employed
-Data Mining, Exploratory Data Analysis, Feature Engineering, Text Mining, Data Visualization, Machine Learning, Time Series Analysis, Financial Analysis, Parallel Processing
+Data Mining, Exploratory Data Analysis, Feature Engineering, Text Mining, Data Visualization, Machine Learning, Time Series Regression, Clustering
 
 #### Tools Employed
-Pickle, Beautiful Soup, TensorFlow, VADER, TextBlob, Keras, pyplot, statsmodels, Trading View API, Twitter API, various news API
+Pickle, pyplot, statsmodels, Pandas, NLTK, Google News API, Twitter API
 
 ### Context
 Cryptocurrency has become an important investment asset as the public is looking for an alternative investment. As the first cryptocurrency, Bitcoin (BTC) is still the most prevalent cryptocurrency, and as such, its price fluctuation is widely anticipated. Given the recent rise in cryptocurrency, this project focuses on predicting BTC using a few techniques and insights. <br>
