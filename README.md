@@ -10,6 +10,8 @@ Data Mining, Exploratory Data Analysis, Feature Engineering, Text Mining, Data V
 Pickle, pyplot, statsmodels, Pandas, NLTK, Google News API, Twitter API
 
 ### Context
+The objective of this project is to minimize the risksof Edible Oils and FX Futures trading through two different steps:
+
 Cryptocurrency has become an important investment asset as the public is looking for an alternative investment. As the first cryptocurrency, Bitcoin (BTC) is still the most prevalent cryptocurrency, and as such, its price fluctuation is widely anticipated. Given the recent rise in cryptocurrency, this project focuses on predicting BTC using a few techniques and insights. <br>
 
 BTC price is volatile because of the following issues: <br>
