@@ -7,35 +7,30 @@ Non-linear and Linear Regression, KMeans Clustering and Classification Models (e
 Data Mining, Exploratory Data Analysis, Feature Engineering, Text Mining, Data Visualization, Machine Learning, Time Series Regression, Clustering
 
 #### Tools Employed
-Pickle, pyplot, statsmodels, Pandas, NLTK, Google News API, Twitter API
+Pickle, pyplot, statsmodels, Pandas, NLTK, Google News API, Twitter API, BarChart getNews API
 
 ### Context
-The objective of this project is to minimize the risksof Edible Oils and FX Futures trading through two different steps:
-
-Cryptocurrency has become an important investment asset as the public is looking for an alternative investment. As the first cryptocurrency, Bitcoin (BTC) is still the most prevalent cryptocurrency, and as such, its price fluctuation is widely anticipated. Given the recent rise in cryptocurrency, this project focuses on predicting BTC using a few techniques and insights. <br>
-
-BTC price is volatile because of the following issues: <br>
-(i) Lack of regulations<br>
-(ii) Supply limitation/scarcity<br>
-(iii) Correlation with other assets/stock market<br>
-(iv) Lack of investment infrastructure<br>
+The objective of this project is to minimize the risks of Edible Oils and FX Futures trading through three different approaches: <br>
+(i) Segmenting customers into different groups based on their past behaviours <br>
+(ii) Predicting how certain customer groups will transact <br>
+(iii) Predicting buying decision and <br>
+<br>
 
 ### Datasets
-To accommodate the issues causing price volatility, we collected data which could be categorized into 4 groups: <strong> Industry Insights, Selected Bitcoin Price Indicators, Sentiment Analysis and Fiat-Based Assets Indicators. </strong> Overall, 1,646,826 data points & 123,791 entries from 20 data sources were collected. <br>
+There were internal data which was given at the beginning of the projects, this consisted of edible oils pricing, customer orders and FX trading pairs datasets. These datasets were enriched with external data, such as news sentiment, commodity price and contract features collected through different APIs. 
 
-The clean aggregated dataset has 41,403 data points, 1,488 entries and 30 selected features. <br>
+<br> Overall, 227 features were explored consisted of 143 raw features and 84 engineered features.<br>
 
 ### Chosen Model & Performance
-To process news articles panel datasets, NLP and sentiment analysis were done. The sentiment was then translated as a feature in the dataset. <br>
-
-Time series (ARIMA) and RNN (LSTM) model were then adopted to predict the price. January 2018 - September 2021 (4 years data) was chosen as the prediction horizon as it included the last Cryptocurrency "Winter" cycle and the latest Cryptocurrency "Boom & Crash" cycle due to recent BTC halving. LSTM was found to be a better model than ARIMA. <br>
-
-The final LSTM model had 4 hidden layers with ~20% dropouts, 50 epochs and validation horizon of 5 months. The model gives MAPE of 7% and RMSE of 3,627.
+(i) For customer segmentation, the best performing model was K-means Clustering. Performance was evaluated based on K-Elbow method to find the optimal K and Silhouette score for each edible oil. The results showed that there were clear groups of short, mid and long term buyers - these segmentation held across all oils. <br>
+(ii) For customer transaction behaviour prediction, bagged/boosted models (e.g: Light GBM and Random Forest) generally outperformed linear classifier. To measure performance, F1 and CV F1 score were adopted. The results indicated that recent periods were the most relevant features and that the models were stable across all time periods (short, medium and long term) on unseen data. <br>
+(iii) For customer transaction forecasting, the best performing model was the one with shorter time-lag. Performance was evaluated based on adjusted R-squared. Insights on customer past behaviour, sentiment and futures could be derived from significant coefficients based on p-value. <br>
 <br>
+
 ### Collaborators
-Felipe Chapa Chamorro (@FelipeChapa)
-Wong Cheng An (@wca91)
-Widya Salim (@salimwid)
-Sahil Sharma (@Sss2107)
-Ankit Malhotra (@analyticsardor)
-Donghwan Kim (@hwaneest)
+Wong Cheng An
+Gino Tiu
+Widya Salim
+Susan Koruthu
+Felipe Chapa
+Rachel Sng
