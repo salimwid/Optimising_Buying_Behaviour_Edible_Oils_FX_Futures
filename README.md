@@ -27,9 +27,9 @@ Overall, 227 features were explored consisted of 143 raw features and 84 enginee
 <br>
 
 ### Collaborators
-Wong Cheng An
-Gino Tiu
-Widya Salim
-Susan Koruthu
-Felipe Chapa
+Wong Cheng An <br>
+Gino Tiu <br>
+Widya Salim <br>
+Susan Koruthu <br>
+Felipe Chapa <br>
 Rachel Sng
